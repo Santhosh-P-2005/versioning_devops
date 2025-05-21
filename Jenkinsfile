@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     DOCKER_IMAGE = "santhosh9405/frontend"
-    KUBECONFIG = credentials('minikube') // Make sure 'minikube' is a secret file credential in Jenkins
+    KUBECONFIG = credentials('kubeconfig') // Make sure 'minikube' is a secret file credential in Jenkins
   }
 
   stages {
