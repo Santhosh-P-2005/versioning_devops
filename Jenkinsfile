@@ -20,7 +20,7 @@ pipeline {
 
     stage('Push Docker Image') {
       steps {
-        withDockerRegistry(credentialsId: 'docker_cred') { 
+        withDockerRegistry([credentialsId: 'docker_cred', url: 'https://index.docker.io/v1/']) {
           sh "docker push ${DOCKER_IMAGE}:green"
         }
       }
