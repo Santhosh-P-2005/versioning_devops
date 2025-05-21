@@ -1,0 +1,114 @@
+.container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+    background-color: #f9f9f9;
+  }
+  
+  
+  .kural-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .button-edit {
+    padding: 10px 15px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button-delete {
+    padding: 10px 15px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button-update {
+    padding: 10px 15px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #54f035;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .button-cancel {
+    padding: 10px 15px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dd2020;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button-delete:hover {
+    background-color: #b30f00;
+  }
+  
+  .button-delete:not(:last-child) {
+    margin-right: 5px;
+  }
+  
+  .button-cancel:hover {
+    background-color: #b30f00;
+  }
+  
+  .button-cancle:not(:last-child) {
+    margin-right: 5px;
+  }
+  
+  .button-edit:hover {
+    background-color: #0068b3;
+  }
+  
+  .button-edit:not(:last-child) {
+    margin-right: 5px;
+  }
+  
+  .button-update:hover {
+    background-color: #3cb300;
+  }
+  
+  .button-update:not(:last-child) {
+    margin-right: 5px;
+  }
+  
+  .message {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    background-color: #e7f3e7;
+    color: #3c763d;
+  }
+  
