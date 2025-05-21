@@ -29,6 +29,7 @@ pipeline {
     stage('Deploy Green') {
       steps {
         sh 'kubectl apply -f k8s/deployment-green.yaml'
+        sh 'kubectl apply -f k8s/service.yaml'
       }
     }
 
